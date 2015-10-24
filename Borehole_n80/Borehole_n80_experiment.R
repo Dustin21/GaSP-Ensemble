@@ -88,8 +88,8 @@ errors.single <- data.frame(RMSE = ldply(singleGP[,2])[,2], MaxE = ldply(singleG
 #-----------------------------------------------------
 
 #****** Inputs ********
-n.iterate <- c(2, 5) 
-n.size <- c(30,31)     
+n.iterate <- c(2, 3) 
+n.size <- c(70,75)     
 #**********************
 
 # run bagging algorithm - number of iterations for each size
